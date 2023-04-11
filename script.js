@@ -16,3 +16,14 @@ function removeUnnecessarySpaces(str) {
 
     return resultStr;
 }
+
+const res1 = removeUnnecessarySpaces("   HTML");
+const res2 = removeUnnecessarySpaces("CSS ");
+const res3 = removeUnnecessarySpaces("  JS  ");
+const res4 = removeUnnecessarySpaces("    ");
+const res5 = removeUnnecessarySpaces("  Hello   World  ");
+console.log(`"${res1}"`);
+console.log(`"${res2}"`);
+console.log(`"${res3}"`);
+console.log(`"${res4}"`);
+console.log(`"${res5}"`);
